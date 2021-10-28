@@ -1,0 +1,21 @@
+#site-wrapper{height:100%;} 
+#loader{ pointer-events: none; position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; background: #FFF; z-index: 1000000;}
+#loader img {width: 24px; position: absolute; left: 50%; margin-left: -12px; top: 50%; margin-top: -12px; }
+
+section{height:100%;position:relative;}
+
+.about{overflow:hidden;}
+.about > div.container{margin-top:0px; width: 960px;}
+.about .post-content{padding-top:175px;}
+.about > div.container h3.masthead-brand{font-size:31px;}
+
+
+.contact > div.container a{font-size: 48px;}
+
+.home{overflow-y:hidden;}
+
+
+
+
+
+

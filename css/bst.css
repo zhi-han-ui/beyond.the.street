@@ -1,0 +1,62 @@
+
+
+/*
+Max content widths
+*/
+.size-auto, 
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto
+}
+
+/*
+Header logo
+An example of how to use CSS to display an image as a background of an HTML element.
+*/
+
+#site-title a {
+  display: inline-block;
+  padding: 30px 0 30px 100px;
+  background: url(../img/bst.html) 0 0 no-repeat;
+  background-size: 95px 95px
+}
+#site-title a:hover {
+  background: url(../img/bst-hover.html) 0 0 no-repeat;
+  background-size: 95px 95px;
+  text-decoration: none
+}
+.main-nav {
+  margin-top: 20px
+}
+
+/*
+Sidebar
+*/
+
+.sidebar ul,
+.sidebar ol {
+  list-style-type: none;
+  padding: 0
+}
+.sidebar li {
+  margin: 10px 0
+}
+
+/*
+Footer
+*/
+
+.footer ul,
+.footer ol {
+  list-style-type: none;
+  padding: 0
+}
+.footer li {
+  margin: 10px 0
+}
+.sub-footer p {
+  text-align: center
+}
