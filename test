@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>台北字照Taipei Font</title>
+    <!-- boostrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="css/streetfont.css">
+    <!-- Noto font -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.css">
+</head>
+</head>
+<style>
+    /* 底片色塊CSS */
+    .bg-1 {
+        background: url('img/03.jpg') no-repeat;
+    }
+
+    .bg-height {
+        height: 100vh;
+    }
+
+    .bg-clr {
+        background: rgba(65, 64, 64, 0.7)
+    }
+</style>
+
+<body>
+    <!-- 台北字照＆Menu -->
+    <div class=" article section2 masthead-brand text-left position-relative">
+        <!-- 底片色塊 -->
+        <div class="bg-clr text-white w-23 h-auto position-absolute"
+            style=" top:0 ;right:0;bottom:0;left:0;z-index:0">
+        </div>
+        <a href="index.html" title="Taipei street font" rel="home" class="position-relative" style="z-index:1;">
+            <h3 class="text-refcolor font">台北<br>字照</h3>
+        </a>
+        <!-- 右側小字 -->
+        <div class="pull-right signature" style="z-index:1;transform: rotate(-90deg);">
+            <p class="text-white font" style="font-size:12px;">Zhih Wang © 2019</p>
+        </div>
+        <div class="d-flex flex-column text-refcolor text-left h-25 position-relative font"
+            style="z-index:1;margin-left: 4%;">
+            <a href="#section3" class="mx-2 mt-3 text-refcolor" style=font-size:20px; onMouseOver="this.innerHTML = '關於街道字體'"
+                onMouseOut="this.innerHTML = 'About'" href="街道字體about/index.html">About</a>
+            <a href="#section4" class="mx-2 mt-3 text-refcolor" style=font-size:20px; onMouseOver="this.innerHTML = '走去街道'"
+                onMouseOut="this.innerHTML = 'Beyond the streets'">Beyond the streets</a>
+            <a href="#section5" class="mx-2 mt-3 text-refcolor" style=font-size:20px; onMouseOver="this.innerHTML = '地區'"
+                onMouseOut="this.innerHTML = 'Area'">Area</a>
+            <a class="mx-2 mt-3 text-refcolor" style="font-size:20px;text-decoration: none;"
+                onMouseOver="this.innerHTML = '登入'" onMouseOut="this.innerHTML = 'Log in'" href="login/index.html">Log
+                in</a>
+        </div>
+    </div>
+
+    <!-- 輪播圖 -->
+    <div class="section1 position-relative font">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <!-- 底片色塊 -->
+                <div class="bg-clr text-white w-23 position-absolute"
+                    style=" top:0 ;right:0;bottom:0;left:0;z-index:999">
+                </div>
+                <div class="carousel-item active">
+                    <img src="img/01.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="word " style="z-index:1;">BEYOND</h5>
+                        <div class="fot">
+                            <p class="p2"><a class="text-refcolor" href="#editorial">台北市 Taipei</a> | <a
+                                    class="text-refcolor" href="kiddkeo/index.html">新北市 New Taipei</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/10.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="word">THE</h5>
+                        <div class="fot">
+                            <p class=" p2"><a class="text-refcolor" href="#editorial">台北市 Taipei</a> | <a
+                                    class="text-refcolor" href="kiddkeo/index.html">新北市 New Taipei</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/08.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="word">STREETS</h5>
+                        <div class="fot">
+                            <p class=" p2"><a class="text-refcolor" href="#editorial">台北市 Taipei</a> | <a
+                                    class="text-refcolor" href="kiddkeo/index.html">新北市 New Taipei</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 街道字體 About : 各類字體介紹 -->
+        <div id="section3" class="article section3 position-relative font">
+            <!-- 底片色塊 -->
+            <div class="bg-clr text-white w-23 h-auto position-absolute"
+                style="top:0 ;right:0;bottom:0;left:0;z-index: 0">
+            </div>
+            <div class="menuabout text-refcolor position-relative " style="z-index: 1;margin-left:8%;">
+                <li><a href="街道字體about/index.html" class="text-refcolor">招牌字</a></li>
+                <li><a href="街道字體about/index.html" class="text-refcolor">字型</a></li>
+                <li><a href="街道字體about/index.html" class="text-refcolor">手繪/手寫字</a></li>
+                <li><a href="街道字體about/index.html" class="text-refcolor">標準字</a></li>
+
+            </div>
+        </div>
+
+        <!-- 走去街道 Beyond the streets -->
+        <div id="section4" class=" section4 position-relative">
+            <!-- 底片色塊 -->
+            <div class="bg-clr text-white w-23 h-auto position-absolute"
+                style="top:0 ;right:0;bottom:0;left:0;z-index: 0">
+            </div>
+            <div class="menuabout text-refcolor d-flex align-items-start flex-column article position-relative"
+                style="z-index: 1;margin-left:8%;">
+                <li><a href="photo.php" class="text-refcolor">台北車站</a></li>
+                <li><a href="photo.php" class="text-refcolor">南陽街</a></li>
+                <li><a href="photo.php" class="text-refcolor">南京西路</a></li>
+                <li><a href="photo.php" class="text-refcolor">華陰街</a></li>
+                <li><a href="photo.php" class="text-refcolor">中山北路一段</a></li>
+                <li><a href="photo.php" class="text-refcolor">中山北路二段59巷</a></li>
+            </div>
+        </div>
+
+        <!-- 地區 Area : 台北市/新北市-->
+        <div id="section5" class="article section5 position-relative">
+            <!-- 底片色塊 -->
+            <div class="bg-clr text-white w-23 h-auto position-absolute"
+                style="top:0 ;right:0;bottom:0;left:0;z-index: 0"></div>
+            <div class="menuabout text-refcolor position-relative font" style="z-index: 1;margin-left:4%;">
+                <li>台北市 Taipei / 新北市 New Taipei</li>
+            </div>
+        </div>
+        <!-- 介紹＆概念 -->
+        <div class="article3 section6" style="background-color: #00fafa">
+            <!-- introduce -->
+            <section id="introduce" class="container">
+                <div class="row">
+                    <div class="post-content">
+                        <div class="row text-center">
+                            <div class="col-md-6 " style=font-size:12px;>
+                                <h6 class="font">關於</h6>
+                                <p class="font">
+                                    鳥瞰台北，街道上花花綠綠的顏色，還有各式開源跟非開源的字體隨處可見，台北地區本身自帶一種雜亂又復古的氣質，製作這個網站之前，陷入街道的字體漩渦裡，也許看完之後，你也會有心得想和我分享（康熙字典體就先不要），希望大家看完之後也會開始喜歡觀察街道，我就可以跟我媽說：媽我設計做得這麼廢，但還是可以做出吸引人家的網站的。(bullshit)<br />
+                            </div>
+                            <div class="col-md-6" style=font-size:12px;>
+                                <h6 class="font">概念</h6>
+                                <p class="font">
+                                    一開始接觸平面設計的時候，因為範圍實在太雜太廣毫無邊界，曾經我也是看到字體就胡亂七八糟的用，完全不管字體使用在設計上的UX，花了很大量的時間雜食不同領域的書，才慢慢了解字體的歷史脈絡，雖然看完網站以後你也不一定會了解，但看完之後你會發現鬼島雖然鬼，至少比某些自稱國家的國家有質感多了。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h6 class="font text-center" style="margin-top:9rem;"><a class="text-dark"
+                        style="text-decoration: none;" href="login/index.html"><i class="fas fa-key mr-2"></i>管理者登入</a>
+                </h6>
+        </div>
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/josemorraja.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/jquery.lettering.js"></script>
+        <script src="js/jquery.textillate.js"></script>
+        <script>
+            // data 自定義屬性啟動
+            // $('.tlt').textillate();
+            // $('.texts').textillate();
+            // js 啟動
+            $('#js1').textillate({
+                // 進場動畫設定
+                in: {
+                    effect: 'slinky',
+                    delay: 50,
+                    delaySale: 1.5,
+                    sync: false,
+                    shuffle: false,
+                    reverse: false,
+                },
+                // 離場動畫設定
+                // out:{
+                //   effect:'fadeOut',
+                //   delay:50,
+                //   delaySale:1.5,
+                //   sync:false,
+                //   shuffle:false,
+                //   reverse:false,
+
+                // }
+            });
+            $('#js2').textillate({
+                // 進場動畫設定
+                in: {
+                    effect: 'slinky',
+                    delay: 50,
+                    delaySale: 1.5,
+                    sync: false,
+                    shuffle: false,
+                    reverse: false,
+                },
+                // 離場動畫設定
+                // out:{
+                //   effect:'fadeOut',
+                //   delay:50,
+                //   delaySale:1.5,
+                //   sync:false,
+                //   shuffle:false,
+                //   reverse:false,
+
+                // }
+            });
+            $('#js3').textillate({
+                // 進場動畫設定
+                in: {
+                    effect: 'slinky',
+                    delay: 50,
+                    delaySale: 1.5,
+                    sync: false,
+                    shuffle: false,
+                    reverse: false,
+                },
+                // 離場動畫設定
+                // out:{
+                //   effect:'fadeOut',
+                //   delay:50,
+                //   delaySale:1.5,
+                //   sync:false,
+                //   shuffle:false,
+                //   reverse:false,
+
+                // }
+            });
+            $('#js4').textillate({
+                // 進場動畫設定
+                in: {
+                    effect: 'slinky',
+                    delay: 50,
+                    delaySale: 1.5,
+                    sync: false,
+                    shuffle: false,
+                    reverse: false,
+                },
+                // 離場動畫設定
+                // out:{
+                //   effect:'fadeOut',
+                //   delay:50,
+                //   delaySale:1.5,
+                //   sync:false,
+                //   shuffle:false,
+                //   reverse:false,
+
+                // }
+            });
+        </script>
+</body>
+
+</html>
